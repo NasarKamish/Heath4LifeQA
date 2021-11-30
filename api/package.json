@@ -26,6 +26,8 @@
     "knex": "^0.21.17",
     "nodemailer": "^6.6.0",
     "pg": "^8.5.1",
+    "postgresql": "0.0.1",
+    "psql": "0.0.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
