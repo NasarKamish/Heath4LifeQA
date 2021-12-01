@@ -1,18 +1,12 @@
 module.exports = {
   devServer: {
-    host: 'localhost'
+    host: "localhost",
   },
-  "transpileDependencies": [
-    "vuetify"
-  ],
+  transpileDependencies: ["vuetify"],
   pwa: {
     name: "Health4Life",
     short_name: "Health4Life",
     start_url: "index.html",
-    // workboxPluginMode: "InjectManifest",
-    // workboxOptions: {
-    //   swSrc: "src/registerServiceWorker.js"
-    // },
     display: "standalone",
     theme_color: "#770000",
     manifestOptions: {
@@ -88,8 +82,8 @@ module.exports = {
           src: "./img/icons/mstile-150x150.png",
           sizes: "150x150",
           type: "image/png",
-        }
+        },
       ],
-    }
-  }
-}
+    },
+  },
+};
